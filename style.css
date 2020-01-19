@@ -26,8 +26,8 @@ h1, h5 {
     text-align: center;
   }
 
-.last-name{
-color: #dcae1d;
+.last-name {
+    color: #dcae1d;
 }
 
 .first-name{
@@ -47,12 +47,25 @@ color: #00303F;
     text-align: justify;
 }
 
+.presentation .mail {
+    color: #00303F;
+    margin: 15px;
+}
+
+.presentation .social-list i {
+    color: #00303F;
+    font-size: 1.8em;
+    margin: 25px 20px;
+}
+
+
+
 /* projets */
 
 h1 {
     font-family: 'Saira Semi Condensed', sans-serif;
-    margin-top: 80px;
-    margin-bottom: 50px;
+    margin-top: 100px;
+    margin-bottom: 30px;
     text-align: center;
 }
 
@@ -69,7 +82,7 @@ h1 .sub-h1 {
 }
 
 .projet {
-    margin: 30px;
+    margin: 50px 30px;
     width: 480px;
 }
 
@@ -100,8 +113,18 @@ h1 .sub-h1 {
 
 .footer {
     background-color: #00303F;
-    height: 100px;
     border: 1px solid black;
     color: white;
     margin-top: 100px;
+    padding: 40px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer .social-list i {
+    color: white;
+    font-size: 1.7em;
+    margin: 25px;
 }
