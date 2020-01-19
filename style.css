@@ -1,0 +1,88 @@
+
+p {
+    color: grey;
+}
+
+h1, h5 {
+    color: #00303F;
+}
+
+
+/* presentation */
+
+.presentation {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 150px;
+}
+
+.nom{
+    font-family: 'Saira Semi Condensed', sans-serif;
+    font-size: 3em;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+  }
+
+.last-name{
+color: #dcae1d;
+}
+
+.first-name{
+color: #00303F;
+}
+
+.profile-pic {
+    width: 150px;
+    border-radius: 15px;
+    margin: 30px;
+}
+
+.presentation-texte {
+    margin: 10px;
+    max-width: 500px;
+    text-align: justify;
+}
+
+/* projets */
+
+h1 {
+    font-family: 'Saira Semi Condensed', sans-serif;
+    margin-top: 70px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+h1 .sub-h1 {
+    color: grey;
+    font-size: 0.8em;
+}
+
+.projet-liste {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.projet {
+    margin: 10px;
+    width: 500px;
+}
+
+.projet .card-img-top {
+    height: 200px;
+}
+
+
+.projet .card-footer {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.projet .btn-success {
+    background-color: #dcae1d;
+    color: white;
+}
