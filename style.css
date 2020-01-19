@@ -73,6 +73,13 @@ h1 .sub-h1 {
 
 .projet .card-img-top {
     height: 200px;
+    overflow: hidden;
+}
+
+.projet .card-img-top img {
+    display: block;
+    height: auto;
+
 }
 
 
