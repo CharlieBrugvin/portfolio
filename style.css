@@ -15,6 +15,7 @@ h1, h5 {
     flex-direction: column;
     align-items: center;
     margin-top: 150px;
+    margin-bottom: 60px;
 }
 
 .nom{
@@ -37,6 +38,7 @@ color: #00303F;
     width: 150px;
     border-radius: 15px;
     margin: 30px;
+    box-shadow: 0 0 5px silver;
 }
 
 .presentation-texte {
@@ -49,8 +51,8 @@ color: #00303F;
 
 h1 {
     font-family: 'Saira Semi Condensed', sans-serif;
-    margin-top: 70px;
-    margin-bottom: 30px;
+    margin-top: 80px;
+    margin-bottom: 50px;
     text-align: center;
 }
 
@@ -67,8 +69,8 @@ h1 .sub-h1 {
 }
 
 .projet {
-    margin: 10px;
-    width: 500px;
+    margin: 30px;
+    width: 480px;
 }
 
 .projet .card-img-top {
@@ -92,4 +94,14 @@ h1 .sub-h1 {
 .projet .btn-success {
     background-color: #dcae1d;
     color: white;
+}
+
+/* footer */
+
+.footer {
+    background-color: #00303F;
+    height: 100px;
+    border: 1px solid black;
+    color: white;
+    margin-top: 100px;
 }
