@@ -1,10 +1,34 @@
 
+/* general */
+
 p {
     color: grey;
 }
 
-h1, h5 {
+h1, h2, h3, h4 h5 {
     color: #00303F;
+}
+
+a {
+    color: rgb(2, 116, 151);
+}
+
+h1 {
+    font-family: 'Saira Semi Condensed', sans-serif;
+    margin-top: 100px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+h1 .sub-h1 {
+    color: grey;
+    font-size: 0.8em;
+}
+
+h2 {
+    font-size: 1.1em;
+    margin-top: 40px;
+    margin-bottom: 20px;
 }
 
 /* presentation */
@@ -52,32 +76,22 @@ h1, h5 {
 }
 
 .presentation .social-list i {
-    color: #00303F;
+    color: #dcae1d;
     font-size: 1.8em;
     margin: 25px 20px;
 }
 
 .presentation a:hover {
-    color:  #dcae1d !important;
+    color:  #00303F !important;
 }
 
 .presentation a i:hover {
-    color:  #dcae1d !important;
+    color:  #00303F !important;
 }
 
 /* projets */
 
-h1 {
-    font-family: 'Saira Semi Condensed', sans-serif;
-    margin-top: 100px;
-    margin-bottom: 30px;
-    text-align: center;
-}
 
-h1 .sub-h1 {
-    color: grey;
-    font-size: 0.8em;
-}
 
 .projet-liste {
     display: flex;
@@ -140,6 +154,12 @@ h1 .sub-h1 {
     color: white;
 }
 
+/* a propos */
+
+.a-propos {
+    margin-top: 60px;
+    text-align: justify;
+}
 
 
 /* footer */
