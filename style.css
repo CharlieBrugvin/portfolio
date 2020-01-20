@@ -7,7 +7,6 @@ h1, h5 {
     color: #00303F;
 }
 
-
 /* presentation */
 
 .presentation {
@@ -31,7 +30,7 @@ h1, h5 {
 }
 
 .first-name{
-color: #00303F;
+    color: #00303F;
 }
 
 .profile-pic {
@@ -58,7 +57,13 @@ color: #00303F;
     margin: 25px 20px;
 }
 
+.presentation a:hover {
+    color:  #dcae1d !important;
+}
 
+.presentation a i:hover {
+    color:  #dcae1d !important;
+}
 
 /* projets */
 
@@ -103,6 +108,16 @@ h1 .sub-h1 {
     justify-content: space-between;
 }
 
+.projet .card-title {
+    display: flex;
+    align-content: center;
+    align-items: center;
+} 
+.projet .card-title .flag-language {
+    height: 14px;
+    margin: 0 15px;
+}
+
 .projet .techno-list {
     display: flex;
     justify-content: center;
@@ -140,6 +155,11 @@ h1 .sub-h1 {
     flex-direction: column;
     align-items: center;
 }
+
+.footer .mail {
+    color: white;
+}
+
 
 .footer .social-list i {
     color: white;
