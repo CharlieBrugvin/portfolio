@@ -166,3 +166,11 @@ h1 .sub-h1 {
     font-size: 1.7em;
     margin: 25px;
 }
+
+.footer a:hover {
+    color:  #dcae1d !important;
+}
+
+.footer a i:hover {
+    color:  #dcae1d !important;
+}
