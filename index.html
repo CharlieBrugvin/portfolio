@@ -80,18 +80,18 @@
               </div>
               <div class="card-text">
                 <p>
-                  Ce projet avait pour but d'explorer les données de la FAO 
+                  Ce projet a pour but d'explorer les données de la FAO 
                   (Food and Agriculture Organization of the United Nations) 
-                  afin de mettre en lumières différentes causes de la fin.
+                  afin de mettre en lumière différentes causes de la faim.
                 </p>
                 <p>
                   Pour ce faire, j'ai récupéré depuis le site de la FAO 
-                  des données sur tout les pays du monde concernant la disponibilité, l'importation 
+                  des données sur tous les pays du monde concernant la disponibilité, l'importation 
                   et l'exportation de différentes denrées alimentaires, ainsi que la population globale et sous-alimentée. 
                 </p>  
                 <p>
-                  J'ai nettoyé, fusionné et transformé ses données afin créer une base de données MySQL composées de 5 tables.
-                  L'explorer m'a permis de trouver des éléments de réponses concernant la faim dans le monde. <br>
+                  J'ai nettoyé, fusionné et transformé ses données afin de créer une base de données MySQL composées de 5 tables.
+                  L'explorer m'a permis de trouver des éléments de réponse concernant la faim dans le monde. <br>
                   J'ai notamment découvert certaines ressources alimentaires qui étaient mal réparties et utilisées.
 
                 </p>
@@ -131,29 +131,22 @@
                 </div>
                 <div class="card-text">
                   <p>
-                    Le but de ce projet était de créer un programme capable de détecter si 
+                    Dans le cadre de ce projet, j'ai créé un programme capable de détecter si 
                     un billet est faux à partir de ses dimensions.
                   </p>
                   <p>
-                     Pour ce faire, j'ai exploré les données d'apprentissages 
-                     fournis contenant les dimensions et les labels de 100 billets fictifs.
+                     J'ai exploré les données d'apprentissages 
+                     fournis contenant les dimensions et les labels de 170 billets fictifs.
                      J'ai analysé les corrélations entre les variables pour déterminer
-                     les plus discriminantes en effectuant des anlayses bivariées et une ACP.
+                     les plus discriminantes en effectuant des analyses bivariées et une ACP. <br>
+                      J'ai ensuite comparé différents algorithmes de classifications non supervisées : 
+                      le CAH, les K-means et l'HCP.
+                      Les données étant labellisées, j'ai également effectué une classification supervisée. 
+                      J'ai divisé le jeu donné en train/test pour tester l'efficacité d'un modèle de régression logistique.
                   </p>
                   <p>
-                      J'ai ensuite évalué différents algorithmes de classifications non-supervisées : 
-                      le Clustering Ascendant Hiérarchique, les K-means et l'HCP.
-                      J'ai comparé leurs matrices de confusions pour déterminer le meilleur.
-                  </p>
-                  <p>
-                      Enfin, pour tirer au mieux profit des données labelisées, j'ai effectué une classification supervisée. 
-                      J'ai divisé le jeu donnée en train/test et j'ai appliqué une régression logistique multiple.
-                      J'ai utilisé une approche stepwise pour sélectionner les variables les plus pertinentes.
-                      Ce modèle a donné un résultat satisfaisant (précision de 0.92 et rappel de 0.96).
-                  </p>
-                  <p>
-                     J'ai alors implémenté un programme l'utilisant pour calculer automatiquement les probabilités que les billets donnés en paramètre soient vrais. 
-                     Il affiche également les billets testés parmis les données d'apprentissage sur le plemier plan factoriel, afin d'offrir une intuiton visuelle
+                     J'ai implémenté un programme l'utilisant pour calculer automatiquement les probabilités que les billets donnés en paramètre soient vrais. 
+                     Il affiche également les billets testés parmi les données d'apprentissage sur le premier plan factoriel, afin d'offrir une intuition visuelle
                      de la classification.
                   </p>
                 </div>
@@ -191,18 +184,20 @@
             </div>
             <div class="card-text">
               <p>
-                  J'ai réalisé une analyse des données d'un site de 
-                  vente fictif afin de déterminer de nouvelles stratégies marketing. <br>
-               </p>
-               <p>   
-                  Pour ce faire, j'ai d'abord restructuré et nettoyé les données issues du SI. <br>
-                  Je les ai ensuite analysé selon différents axes : 
+                  Dans le cadre de ce projet, j'ai réalisé une analyse des données d'un site de 
+                  vente fictif afin de déterminer de nouvelles stratégies marketing.
+                  Pour ce faire, j'ai d'abord restructuré et nettoyé les données issues du SI et les ai analysées selon trois axes.
               </p>
-              <ul>
-                <li> Chiffre d'affaire  et son évolution temporelle : effets saisonniers, produits régulateurs </li>
-                <li> Produit : vue globale des catégories, concentration des ventes (loi des 80-20) </li>
-                <li> Clients : corrélations entre l'age, le sexe, les dépenses, la fréquence d'achat et le panier. Cela m'a permis d'établir trois profils types de clients détaillées. </li>
-              </ul>
+              <p>
+                J'ai étudié l'évolution du chiffre d'affaires au cours du temps afin de déterminer des effets saisonniers et d'éventuels produits régulateurs.
+              </p>
+              <p>
+                J'ai analysé la distribution des catégories de produits et la proportion des ventes de chaque produit (courbe de Lorenz, loi des 80-20).
+              </p>
+              <p>
+                Enfin, j'ai examiné les corrélations entre l'âge, le sexe, les dépenses, les fréquences d'achats et le panier des clients.
+                Cela m'a permi d'établir trois profils types de clients détaillés et de suggérer des stratégies de ventes.
+              </p>
             </div>
             <div class="techno-list">
               <img src="res/python-logo.png">
@@ -239,18 +234,18 @@
               </div>
               <div class="card-text">
                 <p>
-                    Dans ce projet, j'ai réalisé une étude de marché pour une entrepise fictive spécialisée dans la vente de poulets.
-                    Le but était de déterminer les pays les plus propice à une insertion. <br>
+                    Dans ce projet, j'ai réalisé une étude de marché pour une entreprise fictive spécialisée dans la vente de poulets.
+                    Le but était de déterminer les pays les plus propices à une insertion. <br>
                     Tout d'abord, j'ai collecté de différentes sources des données publiques 
                     sur le régime alimentaire, la population, la géographie et l'économie des pays du monde. <br>
                 </p>
                 <p>
                     Après avoir fusionné et nettoyé les données, j'ai effectué un clustering (CAH) pour grouper les pays ainsi qu'une ACP pour les visualiser.
-                    Après interprétation des clusters en fonction de leurs centroïdes et des compostantes principales, j'ai sélectionné le groupe de pays le plus propice et ai réitéré. <br>
+                    Après interprétation des clusters en fonction de leurs centroïdes et des composantes principales, j'ai sélectionné le groupe de pays les plus propices et ai réitéré. <br>
                     Cela m'a permis au final de sélectionner 5 pays. <br>
                 </p>
                 <p>
-                    J'ai alors présenté leurs données clefs tel que le PIB/hab, l'indice de risque économique, la population, le prix local de production du poulet et la quantité annuelle de volaille importée par habitant.
+                    J'ai alors présenté leurs données clefs telles que le PIB/hab, l'indice de risque économique, la population, le prix local de production du poulet et la quantité annuelle de volaille importée par habitant.
                 </p>
               </div>
               <div class="techno-list">
@@ -297,8 +292,8 @@
             <div class="card-text">
               <p>
                 I have made this shoot them all game to practice my skillls in Angular.
-                I designed it from scatch, from the code, to the design of pictures.
-                It is playable on mobile tablet and desktop.
+                I designed it from scatch, from the code to the design of pictures.
+                It is playable on mobile, tablet and desktop.
               </p>
               <p>
                 To manage the project, I used git.
@@ -332,39 +327,38 @@
 
         <h1> À PROPOS  </h1>
 
-        <h2> MON PARCOURS </h2>
+        <h2> PARCOURS </h2>
 
           <p>
               Passionné depuis mon adolescence par l'informatique, 
               j'ai toujours aimé apprendre à manier de nouveaux outils sur ordinateur. 
               Ce fût d'abord des logiciels graphiques, puis je me suis orienté vers la programmation.
-              Ce sont ces premiers essais qui m'ont motivé à m'engager dans des études supérieures en informatique.
+              Ce sont ses premiers essais qui m'ont motivé à m'engager dans des études supérieures en informatique.
               <br>
               J'ai étudié le développement logiciel et la science des données durant 
               ma licence et mon master à l'Université d'Avignon.
-              Passioné par cette dernière, j'ai poursuivi mes études en suivant la 
+              Passionné par cette dernière, j'ai poursuivi mes études en suivant la 
               <a href="https://openclassrooms.com/fr/paths/65-data-analyst"> formation en ligne Data Analyst </a>
               sur la plateforme OpenClassrooms et en effectuant un stage au <a href="https://lia.univ-avignon.fr/"> Laboratoire Informatique d'Avignon. </a>
-              D'avantage d'informations concernant mon parcours sont disponibles sur mon <a href="https://www.linkedin.com/in/charlie-brugvin/"> profil LinkedIn</a>. 
+              Davantage d'informations concernant mon parcours sont disponibles sur mon <a href="https://www.linkedin.com/in/charlie-brugvin/"> profil LinkedIn</a>. 
               <br> <br>
               Désormais, je cherche à mettre en pratique mon savoir-faire au sein d'une entreprise.
           </p>
 
-        <h2> MES COMPÉTENCES </h2>
+        <h2> COMPÉTENCES </h2>
 
           <p>
-            Je sais programmer dans différents langages de programmation tel que le Python, le R et le Typescript. 
-            J'ai de l'experience avec les librairies Python pour la Data Science (numpy, pandas, scikit learn, Keras), 
-            ainsi qu'avec les technologies web Angular, HTML, CSS & Javascript.
+            Je sais programmer dans différents langages de programmation telle que le Python, le R et le Java. 
+            J'ai de l'expérience avec les librairies Python pour la Data Science (numpy, pandas, scikit learn, Keras), 
+            ainsi qu'avec les technologies web Angular, HTML, CSS, TypeScript et Javascript.
           </p>
 
-        <h2> MES LOISIRS </h2>
+        <h2> LOISIRS </h2>
 
           <p>
             J'adore le cinéma et j'apprécie la littérature. J'ai de l'intérêt pour l'astronomie, la psychologie et la sociologie. 
-            J'aime courir et faire de l'escalade en pleine nature. Je me suis récemment 
-            découvert une passion pour la randonnée et les grands espaces
-            lorsque j'ai décidé de marcher sur le chemin de Saint Jacques de Compostelle au cours de l'automne 2019.  
+            J'aime courir et faire de l'escalade en pleine nature. J'ai découvert récemment les longues randonnées
+            lorsque j'ai décidé de marcher sur le chemin de Saint-Jacques-de-Compostelle au cours de l'automne 2019.
           </p>
 
       </div>
