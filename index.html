@@ -1,380 +1,399 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
-    <script src="https://kit.fontawesome.com/6676cafd26.js" crossorigin="anonymous"></script>
-    <link href="https://fonts.googleapis.com/css?family=Saira+Semi+Condensed&display=swap" rel="stylesheet">
-    <link rel="icon" href="res/favicon.png" />
-    <!-- og tags (for linkedin & social networks) -->
-    <meta property="og:title" content="Charlie Brugvin - Portfolio"/>
-    <meta property="og:image" content="https://raw.githubusercontent.com/CharlieBrugvin/portfolio/gh-pages/res/og-picture.png"/>
-    <meta property="og:description" content="J’aime distiller les données pour en extraire le sens et vérifier son impact sur le réel. Jeune diplômé de master en informatique, je souhaite devenir Data Scientist."/>
-    <meta property="og:url" content="https://charlie-brugvin.dev/" />
-  </head>
-  <body>
-    <div class="container">
 
-      <!-- PRESENTATION -->
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://kit.fontawesome.com/6676cafd26.js" crossorigin="anonymous"></script>
+  <link href="https://fonts.googleapis.com/css?family=Saira+Semi+Condensed&display=swap" rel="stylesheet">
+  <link rel="icon" href="res/favicon.png" />
+  <!-- og tags (for linkedin & social networks) -->
+  <meta property="og:title" content="Charlie Brugvin - Portfolio" />
+  <meta property="og:image" content="https://raw.githubusercontent.com/CharlieBrugvin/portfolio/gh-pages/res/og-picture.png" />
+  <meta property="og:description" content="J’aime distiller les données pour en extraire le sens et vérifier son impact sur le réel. Jeune diplômé de master en informatique, je souhaite devenir Data Scientist." />
+  <meta property="og:url" content="https://charlie-brugvin.dev/" />
+</head>
 
-      <div class="presentation">
-          
-        <div class="nom">
-          <span class="first-name">
-            Charlie
-          </span>
-          <span class="last-name">
-            Brugvin
-          </span>
-        </div>
+<body>
+  <div class="container">
 
-          <img class="profile-pic" src="res/profile-picture.jpg">
+    <!-- PRESENTATION -->
 
-          <p class="presentation-texte">
-            J’aime distiller les données pour en extraire le sens et vérifier son impact sur le réel.
-            Jeune diplômé de master en informatique, je souhaite devenir Data Scientist.
-            <br> <br>
-            Je présente ici les projets dont je suis le plus fier, en Data Science et en développement Web.
-          </p>
+    <div class="presentation">
 
-          <a href="mailto: charlie.brugvin@gmail.com" class="mail">
-              <i class="far fa-envelope"></i>
-              charlie.brugvin@gmail.com
-          </a>
-
-          <div class="social-list">
-            <a href="https://www.linkedin.com/in/charlie-brugvin/"><i class="fab fa-linkedin"></i></a>
-            <a href="https://github.com/Charliebrugvin"><i class="fab fa-github"></i></a>
-          </div>
-
-          
-
+      <div class="nom">
+        <span class="first-name">
+          Charlie
+        </span>
+        <span class="last-name">
+          Brugvin
+        </span>
       </div>
 
-      <hr>
-      
-      <!-- PROJETS -->
+      <img class="profile-pic" src="res/profile-picture.jpg">
 
-      <h1> PROJETS <span class="sub-h1"> Data Science </span> </h1>
+      <p class="presentation-texte">
+        J’aime distiller les données pour en extraire le sens et vérifier son impact sur le réel.
+        Jeune diplômé de master en informatique, je souhaite devenir Data Scientist.
+        <br> <br>
+        Je présente ici les projets dont je suis le plus fier, en Data Science et en développement Web.
+      </p>
 
-      <div class="projet-liste">
-
-        <!-- etude santé publique -->
-
-        <div class="card projet">
-            <div class="card-img-top">
-              <img src="res/projet-etude-sante-publique.png">
-            </div>
-            <div class="card-body">
-              <div class="card-title">
-                <h5 class="title"> Étude de santé publique   </h5>
-                <div class="hashtag-list">
-                    <span class="badge badge-pill"> <i class="fas fa-hashtag"></i> open data </span>
-                    <span class="badge badge-pill"> <i class="fas fa-hashtag"></i> nettoyage </span>
-                    <span class="badge badge-pill"> <i class="fas fa-hashtag"></i> SQL </span>
-                </div>
-              </div>
-              <div class="card-text">
-                <p>
-                  Ce projet a pour but d'explorer les données de la FAO 
-                  (Food and Agriculture Organization of the United Nations) 
-                  afin de mettre en lumière différentes causes de la faim.
-                </p>
-                <p>
-                  Pour ce faire, j'ai récupéré depuis le site de la FAO 
-                  des données sur tous les pays du monde concernant la disponibilité, l'importation 
-                  et l'exportation de différentes denrées alimentaires, ainsi que la population globale et sous-alimentée. 
-                </p>  
-                <p>
-                  J'ai nettoyé, fusionné et transformé ses données afin de créer une base de données MySQL composées de 5 tables.
-                  L'explorer m'a permis de trouver des éléments de réponse concernant la faim dans le monde. <br>
-                  J'ai notamment découvert certaines ressources alimentaires qui étaient mal réparties et utilisées.
-
-                </p>
-              </div>
-              <div class="techno-list">
-                  <img src="res/python-logo.png">
-                  <img src="res/sql-logo.png">
-                  <img src="res/jupyter-logo.png">
-              </div>
-            </div>
-            <div class="card-footer">
-                <a href="https://github.com/CharlieBrugvin/etude-de-sante-publique/blob/master/pr%C3%A9sentation.pdf" class="btn btn-outline-info">
-                  <i class="far fa-file-powerpoint"></i>
-                  Présentation complète
-                </a>
-                <a href="https://github.com/CharlieBrugvin/etude-de-sante-publique" class="btn btn-outline-dark"> 
-                  <i class="fab fa-github"></i>
-                  Code source sur Github
-                </a>
-            </div>
-          </div>
-
-           <!-- detection faux billets -->
-
-           <div class="card projet">
-              <div class="card-img-top">
-                <img src="res/projet-dection-faux-billets.png">
-              </div>
-              <div class="card-body">
-                <div class="card-title">
-                  <h5 class="title"> Détection automatique de faux billets </h5>
-                  <div class="hashtag-list">
-                      <span class="badge badge-pill"> <i class="fas fa-hashtag"></i> ACP </span>
-                    <span class="badge badge-pill"> <i class="fas fa-hashtag"></i> classif. supervisée </span>
-                    <span class="badge badge-pill"> <i class="fas fa-hashtag"></i> classif. non supervisée </span>
-                  </div>
-                </div>
-                <div class="card-text">
-                  <p>
-                    Dans le cadre de ce projet, j'ai créé un programme capable de détecter si 
-                    un billet est faux à partir de ses dimensions.
-                  </p>
-                  <p>
-                     J'ai exploré les données d'apprentissages 
-                     fournis contenant les dimensions et les labels de 170 billets fictifs.
-                     J'ai analysé les corrélations entre les variables pour déterminer
-                     les plus discriminantes en effectuant des analyses bivariées et une ACP. <br>
-                      J'ai ensuite comparé différents algorithmes de classifications non supervisées : 
-                      le CAH, les K-means et l'HCP.
-                      Les données étant labellisées, j'ai également effectué une classification supervisée. 
-                      J'ai divisé le jeu donné en train/test pour tester l'efficacité d'un modèle de régression logistique.
-                  </p>
-                  <p>
-                     J'ai implémenté un programme l'utilisant pour calculer automatiquement les probabilités que les billets donnés en paramètre soient vrais. 
-                     Il affiche également les billets testés parmi les données d'apprentissage sur le premier plan factoriel, afin d'offrir une intuition visuelle
-                     de la classification.
-                  </p>
-                </div>
-                <div class="techno-list">
-                    <img src="res/R-logo.png">
-                    <img src="res/R-markdown-logo.png">
-                </div>
-              </div>
-              <div class="card-footer">
-                  <a href="https://github.com/CharlieBrugvin/detection-faux-billets-en-R/blob/master/pr%C3%A9sentation.pdf" class="btn btn-outline-info">
-                    <i class="far fa-file-powerpoint"></i>
-                    Présentation complète
-                  </a>
-                  <a href="https://github.com/CharlieBrugvin/detection-faux-billets-en-R" class="btn btn-outline-dark"> 
-                    <i class="fab fa-github"></i>
-                    Code source sur Github
-                  </a>
-              </div>
-            </div>
-
-        <!-- analyse des ventes -->
-        
-        <div class="card projet">
-          <div class="card-img-top">
-            <img src="res/projet-analyse-vente.jpg">
-          </div>
-          <div class="card-body">
-            <div class="card-title">
-              <h5 class="title"> Analyse des ventes  </h5>
-              <div class="hashtag-list">
-                  <span class="badge badge-pill"> <i class="fas fa-hashtag"></i> nettoyage </span>
-                  <span class="badge badge-pill"> <i class="fas fa-hashtag"></i> temporelle </span>
-                  <span class="badge badge-pill"> <i class="fas fa-hashtag"></i> bivariée </span>
-              </div>
-            </div>
-            <div class="card-text">
-              <p>
-                  Dans le cadre de ce projet, j'ai réalisé une analyse des données d'un site de 
-                  vente fictif afin de déterminer de nouvelles stratégies marketing.
-                  Pour ce faire, j'ai d'abord restructuré et nettoyé les données issues du SI et les ai analysées selon trois axes.
-              </p>
-              <p>
-                J'ai étudié l'évolution du chiffre d'affaires au cours du temps afin de déterminer des effets saisonniers et d'éventuels produits régulateurs.
-              </p>
-              <p>
-                J'ai analysé la distribution des catégories de produits et la proportion des ventes de chaque produit (courbe de Lorenz, loi des 80-20).
-              </p>
-              <p>
-                Enfin, j'ai examiné les corrélations entre l'âge, le sexe, les dépenses, les fréquences d'achats et le panier des clients.
-                Cela m'a permi d'établir trois profils types de clients détaillés et de suggérer des stratégies de ventes.
-              </p>
-            </div>
-            <div class="techno-list">
-              <img src="res/python-logo.png">
-              <img src="res/jupyter-logo.png">
-            </div>
-          </div>
-          <div class="card-footer">
-              <a href="https://github.com/CharlieBrugvin/analyse-des-ventes/blob/master/pr%C3%A9sentation.pdf" class="btn btn-outline-info">
-                <i class="far fa-file-powerpoint"></i>
-                Présentation complète
-              </a>
-              <a href="https://github.com/CharlieBrugvin/analyse-des-ventes" class="btn btn-outline-dark"> 
-                <i class="fab fa-github"></i>
-                Code source sur Github
-              </a>
-          </div>
-        </div>
-
-        <!-- étude de marché -->
-
-        <div class="card projet">
-            <div class="card-img-top">
-              <img src="res/projet-etude-marche.png">
-            </div>
-            <div class="card-body">
-              <div class="card-title">
-                <h5 class="title"> Étude de marché  </h5>
-                <div class="hashtag-list">
-                    <span class="badge badge-pill"> <i class="fas fa-hashtag"></i> open data </span>
-                    <span class="badge badge-pill"> <i class="fas fa-hashtag"></i> nettoyage </span>
-                    <span class="badge badge-pill"> <i class="fas fa-hashtag"></i> classif. non supervisée </span>
-                    <span class="badge badge-pill"> <i class="fas fa-hashtag"></i> ACP </span>
-                </div>
-              </div>
-              <div class="card-text">
-                <p>
-                    Dans ce projet, j'ai réalisé une étude de marché pour une entreprise fictive spécialisée dans la vente de poulets.
-                    Le but était de déterminer les pays les plus propices à une insertion. <br>
-                    Tout d'abord, j'ai collecté de différentes sources des données publiques 
-                    sur le régime alimentaire, la population, la géographie et l'économie des pays du monde. <br>
-                </p>
-                <p>
-                    Après avoir fusionné et nettoyé les données, j'ai effectué un clustering (CAH) pour grouper les pays ainsi qu'une ACP pour les visualiser.
-                    Après interprétation des clusters en fonction de leurs centroïdes et des composantes principales, j'ai sélectionné le groupe de pays les plus propices et ai réitéré. <br>
-                    Cela m'a permis au final de sélectionner 5 pays. <br>
-                </p>
-                <p>
-                    J'ai alors présenté leurs données clefs telles que le PIB/hab, l'indice de risque économique, la population, le prix local de production du poulet et la quantité annuelle de volaille importée par habitant.
-                </p>
-              </div>
-              <div class="techno-list">
-                  <img src="res/R-logo.png">
-                  <img src="res/R-markdown-logo.png">
-              </div>
-            </div>
-            <div class="card-footer">
-                <a href="https://github.com/CharlieBrugvin/etude-de-marche-en-R/blob/master/pr%C3%A9sentation.pdf" class="btn btn-outline-info">
-                  <i class="far fa-file-powerpoint"></i>
-                  Présentation complète
-                </a>
-                <a href="https://github.com/CharlieBrugvin/etude-de-marche-en-R" class="btn btn-outline-dark"> 
-                  <i class="fab fa-github"></i>
-                  Code source sur Github
-                </a>
-            </div>
-          </div>
-      </div>
-
-      <h1> PROJETS <span class="sub-h1"> Web </span> </h1>
-
-      <div class="projet-liste">
-      
-        <!-- shoot em all -->
-        <div class="card projet">
-          <div class="card-img-top">
-            <img src="res/projet-shoot-em-all.png">
-          </div>
-          <div class="card-body">
-            <div class="card-title">
-              <h5 class="title"> Shoot'em up game </h5>
-              <div class="hashtag-list">
-                  <span class="badge badge-pill"> <i class="fas fa-hashtag"></i> web app </span>
-                  <span class="badge badge-pill"> <i class="fas fa-hashtag"></i> video game </span>
-              </div>
-            </div>
-            <div class="card-text">
-              <p>
-                I have made this shoot them all game to practice my skillls in Angular.
-                I designed it from scatch, from the code to the design of pictures.
-                It is playable on mobile, tablet and desktop.
-              </p>
-              <p>
-                To manage the project, I used git.
-              </p>
-            </div>
-            <div class="techno-list">
-                <img src="res/angular-logo.png">
-                <img src="res/typescript-logo.png">
-                <img src="res/html-logo.png">
-                <img src="res/sass-logo.png">
-                <img src="res/git-logo.png">
-            </div>
-          </div>
-          <div class="card-footer">
-              <a href="https://invader-2437c.web.app/game" class="btn btn-outline-danger">
-                <i class="fas fa-play"></i>
-                Play Online
-              </a>
-              <a href="https://github.com/CharlieBrugvin/shoot-them-all-game-webapp" class="btn btn-outline-dark"> 
-                <i class="fab fa-github"></i>
-                Source code on Github
-              </a>
-          </div>
-        </div>
-
-      </div>
-
-      <div class="a-propos">
-
-        <hr>
-
-        <h1> À PROPOS  </h1>
-
-        <h2> PARCOURS </h2>
-
-          <p>
-              Passionné depuis mon adolescence par l'informatique, 
-              j'ai toujours aimé apprendre à manier de nouveaux outils sur ordinateur. 
-              Ce fût d'abord des logiciels graphiques, puis je me suis orienté vers la programmation.
-              Ce sont ses premiers essais qui m'ont motivé à m'engager dans des études supérieures en informatique.
-              <br>
-              J'ai étudié le développement logiciel et la science des données durant 
-              ma licence et mon master à l'Université d'Avignon.
-              Passionné par cette dernière, j'ai poursuivi mes études en suivant la 
-              <a href="https://openclassrooms.com/fr/paths/65-data-analyst"> formation en ligne Data Analyst </a>
-              sur la plateforme OpenClassrooms et en effectuant un stage au <a href="https://lia.univ-avignon.fr/"> Laboratoire Informatique d'Avignon. </a>
-              Davantage d'informations concernant mon parcours sont disponibles sur mon <a href="https://www.linkedin.com/in/charlie-brugvin/"> profil LinkedIn</a>. 
-              <br> <br>
-              Désormais, je cherche à mettre en pratique mon savoir-faire au sein d'une entreprise.
-          </p>
-
-        <h2> COMPÉTENCES </h2>
-
-          <p>
-            Je sais programmer dans différents langages de programmation telle que le Python, le R et le Java. 
-            J'ai de l'expérience avec les librairies Python pour la Data Science (numpy, pandas, scikit learn, Keras), 
-            ainsi qu'avec les technologies web Angular, HTML, CSS, TypeScript et Javascript.
-          </p>
-
-        <h2> LOISIRS </h2>
-
-          <p>
-            J'adore le cinéma et j'apprécie la littérature. J'ai de l'intérêt pour l'astronomie, la psychologie et la sociologie. 
-            J'aime courir et faire de l'escalade en pleine nature. J'ai découvert récemment les longues randonnées
-            lorsque j'ai décidé de marcher sur le chemin de Saint-Jacques-de-Compostelle au cours de l'automne 2019.
-          </p>
-
-      </div>
-
-    </div>
-
-    
-
-    <div class="footer">
-        
       <a href="mailto: charlie.brugvin@gmail.com" class="mail">
         <i class="far fa-envelope"></i>
         charlie.brugvin@gmail.com
       </a>
 
-        <div class="social-list">
-          <a href="https://www.linkedin.com/in/charlie-brugvin/"><i class="fab fa-linkedin"></i></a>
-          <a href="https://github.com/Charliebrugvin"><i class="fab fa-github"></i></a>
-        </div>
+      <div class="social-list">
+        <a href="https://www.linkedin.com/in/charlie-brugvin/"><i class="fab fa-linkedin"></i></a>
+        <a href="https://github.com/Charliebrugvin"><i class="fab fa-github"></i></a>
+      </div>
+
+
 
     </div>
 
+    <hr>
 
-  </body>
+    <!-- PROJETS -->
+
+    <h1> PROJETS <span class="sub-h1"> Data Science </span> </h1>
+
+    <div class="projet-liste">
+
+      <!-- étude de marché -->
+
+      <div class="card projet">
+        <div class="card-img-top">
+          <img src="res/projet-etude-marche.png">
+        </div>
+        <div class="card-body">
+          <div class="card-title">
+            <h5 class="title"> Étude de marché </h5>
+            <div class="hashtag-list">
+              <span class="badge badge-pill"> <i class="fas fa-hashtag"></i> open data </span>
+              <span class="badge badge-pill"> <i class="fas fa-hashtag"></i> nettoyage </span>
+              <span class="badge badge-pill"> <i class="fas fa-hashtag"></i> classif. non supervisée </span>
+              <span class="badge badge-pill"> <i class="fas fa-hashtag"></i> ACP </span>
+            </div>
+          </div>
+          <div class="card-text">
+            <p>
+              Dans ce projet, j'ai réalisé une étude de marché pour une entreprise fictive spécialisée dans la vente de
+              poulets.
+              Le but était de déterminer les pays les plus propices à une insertion. <br>
+              Tout d'abord, j'ai collecté de différentes sources des données publiques
+              sur le régime alimentaire, la population, la géographie et l'économie des pays du monde. <br>
+            </p>
+            <p>
+              Après avoir fusionné et nettoyé les données, j'ai effectué un clustering (CAH) pour grouper les pays
+              ainsi qu'une ACP pour les visualiser.
+              Après interprétation des clusters en fonction de leurs centroïdes et des composantes principales, j'ai
+              sélectionné le groupe de pays les plus propices et ai réitéré. <br>
+              Cela m'a permis au final de sélectionner 5 pays. <br>
+            </p>
+            <p>
+              J'ai alors présenté leurs données clefs telles que le PIB/hab, l'indice de risque économique, la
+              population, le prix local de production du poulet et la quantité annuelle de volaille importée par
+              habitant.
+            </p>
+          </div>
+          <div class="techno-list">
+            <img src="res/R-logo.png">
+            <img src="res/R-markdown-logo.png">
+          </div>
+        </div>
+        <div class="card-footer">
+          <a href="https://github.com/CharlieBrugvin/etude-de-marche-en-R/blob/master/pr%C3%A9sentation.pdf" class="btn btn-outline-info">
+            <i class="far fa-file-powerpoint"></i>
+            Présentation complète
+          </a>
+          <a href="https://github.com/CharlieBrugvin/etude-de-marche-en-R" class="btn btn-outline-dark">
+            <i class="fab fa-github"></i>
+            Code source sur Github
+          </a>
+        </div>
+      </div>
+
+      <!-- analyse des ventes -->
+
+      <div class="card projet">
+        <div class="card-img-top">
+          <img src="res/projet-analyse-vente.jpg">
+        </div>
+        <div class="card-body">
+          <div class="card-title">
+            <h5 class="title"> Analyse des ventes </h5>
+            <div class="hashtag-list">
+              <span class="badge badge-pill"> <i class="fas fa-hashtag"></i> nettoyage </span>
+              <span class="badge badge-pill"> <i class="fas fa-hashtag"></i> temporelle </span>
+              <span class="badge badge-pill"> <i class="fas fa-hashtag"></i> bivariée </span>
+            </div>
+          </div>
+          <div class="card-text">
+            <p>
+              Dans le cadre de ce projet, j'ai réalisé une analyse des données d'un site de
+              vente fictif afin de déterminer de nouvelles stratégies marketing.
+              Pour ce faire, j'ai d'abord restructuré et nettoyé les données issues du SI et les ai analysées selon
+              trois axes.
+            </p>
+            <p>
+              J'ai étudié l'évolution du chiffre d'affaires au cours du temps afin de déterminer des effets saisonniers
+              et d'éventuels produits régulateurs.
+            </p>
+            <p>
+              J'ai analysé la distribution des catégories de produits et la proportion des ventes de chaque produit
+              (courbe de Lorenz, loi des 80-20).
+            </p>
+            <p>
+              Enfin, j'ai examiné les corrélations entre l'âge, le sexe, les dépenses, les fréquences d'achats et le
+              panier des clients.
+              Cela m'a permi d'établir trois profils types de clients détaillés et de suggérer des stratégies de
+              ventes.
+            </p>
+          </div>
+          <div class="techno-list">
+            <img src="res/python-logo.png">
+            <img src="res/jupyter-logo.png">
+          </div>
+        </div>
+        <div class="card-footer">
+          <a href="https://github.com/CharlieBrugvin/analyse-des-ventes/blob/master/pr%C3%A9sentation.pdf" class="btn btn-outline-info">
+            <i class="far fa-file-powerpoint"></i>
+            Présentation complète
+          </a>
+          <a href="https://github.com/CharlieBrugvin/analyse-des-ventes" class="btn btn-outline-dark">
+            <i class="fab fa-github"></i>
+            Code source sur Github
+          </a>
+        </div>
+      </div>
+
+      <!-- detection faux billets -->
+
+      <div class="card projet">
+        <div class="card-img-top">
+          <img src="res/projet-dection-faux-billets.png">
+        </div>
+        <div class="card-body">
+          <div class="card-title">
+            <h5 class="title"> Détection automatique de faux billets </h5>
+            <div class="hashtag-list">
+              <span class="badge badge-pill"> <i class="fas fa-hashtag"></i> ACP </span>
+              <span class="badge badge-pill"> <i class="fas fa-hashtag"></i> classif. supervisée </span>
+              <span class="badge badge-pill"> <i class="fas fa-hashtag"></i> classif. non supervisée </span>
+            </div>
+          </div>
+          <div class="card-text">
+            <p>
+              Dans le cadre de ce projet, j'ai créé un programme capable de détecter si
+              un billet est faux à partir de ses dimensions.
+            </p>
+            <p>
+              J'ai exploré les données d'apprentissages
+              fournis contenant les dimensions et les labels de 170 billets fictifs.
+              J'ai analysé les corrélations entre les variables pour déterminer
+              les plus discriminantes en effectuant des analyses bivariées et une ACP. <br>
+              J'ai ensuite comparé différents algorithmes de classifications non supervisées :
+              le CAH, les K-means et l'HCP.
+              Les données étant labellisées, j'ai également effectué une classification supervisée.
+              J'ai divisé le jeu donné en train/test pour tester l'efficacité d'un modèle de régression logistique.
+            </p>
+            <p>
+              J'ai implémenté un programme l'utilisant pour calculer automatiquement les probabilités que les billets
+              donnés en paramètre soient vrais.
+              Il affiche également les billets testés parmi les données d'apprentissage sur le premier plan factoriel,
+              afin d'offrir une intuition visuelle
+              de la classification.
+            </p>
+          </div>
+          <div class="techno-list">
+            <img src="res/R-logo.png">
+            <img src="res/R-markdown-logo.png">
+          </div>
+        </div>
+        <div class="card-footer">
+          <a href="https://github.com/CharlieBrugvin/detection-faux-billets-en-R/blob/master/pr%C3%A9sentation.pdf"
+            class="btn btn-outline-info">
+            <i class="far fa-file-powerpoint"></i>
+            Présentation complète
+          </a>
+          <a href="https://github.com/CharlieBrugvin/detection-faux-billets-en-R" class="btn btn-outline-dark">
+            <i class="fab fa-github"></i>
+            Code source sur Github
+          </a>
+        </div>
+      </div>
+
+      <!-- etude santé publique -->
+
+      <div class="card projet">
+        <div class="card-img-top">
+          <img src="res/projet-etude-sante-publique.png">
+        </div>
+        <div class="card-body">
+          <div class="card-title">
+            <h5 class="title"> Étude de santé publique </h5>
+            <div class="hashtag-list">
+              <span class="badge badge-pill"> <i class="fas fa-hashtag"></i> open data </span>
+              <span class="badge badge-pill"> <i class="fas fa-hashtag"></i> nettoyage </span>
+              <span class="badge badge-pill"> <i class="fas fa-hashtag"></i> SQL </span>
+            </div>
+          </div>
+          <div class="card-text">
+            <p>
+              Ce projet a pour but d'explorer les données de la FAO
+              (Food and Agriculture Organization of the United Nations)
+              afin de mettre en lumière différentes causes de la faim.
+            </p>
+            <p>
+              Pour ce faire, j'ai récupéré depuis le site de la FAO
+              des données sur tous les pays du monde concernant la disponibilité, l'importation
+              et l'exportation de différentes denrées alimentaires, ainsi que la population globale et sous-alimentée.
+            </p>
+            <p>
+              J'ai nettoyé, fusionné et transformé ses données afin de créer une base de données MySQL composées de 5
+              tables.
+              L'explorer m'a permis de trouver des éléments de réponse concernant la faim dans le monde. <br>
+              J'ai notamment découvert certaines ressources alimentaires qui étaient mal réparties et utilisées.
+
+            </p>
+          </div>
+          <div class="techno-list">
+            <img src="res/python-logo.png">
+            <img src="res/sql-logo.png">
+            <img src="res/jupyter-logo.png">
+          </div>
+        </div>
+        <div class="card-footer">
+          <a href="https://github.com/CharlieBrugvin/etude-de-sante-publique/blob/master/pr%C3%A9sentation.pdf" class="btn btn-outline-info">
+            <i class="far fa-file-powerpoint"></i>
+            Présentation complète
+          </a>
+          <a href="https://github.com/CharlieBrugvin/etude-de-sante-publique" class="btn btn-outline-dark">
+            <i class="fab fa-github"></i>
+            Code source sur Github
+          </a>
+        </div>
+      </div>
+
+    </div>
+
+    <h1> PROJETS <span class="sub-h1"> Web </span> </h1>
+
+    <div class="projet-liste">
+
+      <!-- shoot em all -->
+
+      <div class="card projet">
+        <div class="card-img-top">
+          <img src="res/projet-shoot-em-all.png">
+        </div>
+        <div class="card-body">
+          <div class="card-title">
+            <h5 class="title"> Shoot'em up game </h5>
+            <div class="hashtag-list">
+              <span class="badge badge-pill"> <i class="fas fa-hashtag"></i> web app </span>
+              <span class="badge badge-pill"> <i class="fas fa-hashtag"></i> video game </span>
+            </div>
+          </div>
+          <div class="card-text">
+            <p>
+              I have made this shoot them all game to practice my skillls in Angular.
+              I designed it from scatch, from the code to the design of pictures.
+              It is playable on mobile, tablet and desktop.
+            </p>
+            <p>
+              To manage the project, I used git.
+            </p>
+          </div>
+          <div class="techno-list">
+            <img src="res/angular-logo.png">
+            <img src="res/typescript-logo.png">
+            <img src="res/html-logo.png">
+            <img src="res/sass-logo.png">
+            <img src="res/git-logo.png">
+          </div>
+        </div>
+        <div class="card-footer">
+          <a href="https://invader-2437c.web.app/game" class="btn btn-outline-danger">
+            <i class="fas fa-play"></i>
+            Play Online
+          </a>
+          <a href="https://github.com/CharlieBrugvin/shoot-them-all-game-webapp" class="btn btn-outline-dark">
+            <i class="fab fa-github"></i>
+            Source code on Github
+          </a>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="a-propos">
+
+      <hr>
+
+      <h1> À PROPOS </h1>
+
+      <h2> PARCOURS </h2>
+
+      <p>
+        Passionné depuis mon adolescence par l'informatique,
+        j'ai toujours aimé apprendre à manier de nouveaux outils sur ordinateur.
+        Ce fût d'abord des logiciels graphiques, puis je me suis orienté vers la programmation.
+        Ce sont ses premiers essais qui m'ont motivé à m'engager dans des études supérieures en informatique.
+        <br>
+        J'ai étudié le développement logiciel et la science des données durant
+        ma licence et mon master à l'Université d'Avignon.
+        Passionné par cette dernière, j'ai poursuivi mes études en suivant la
+        <a href="https://openclassrooms.com/fr/paths/65-data-analyst"> formation en ligne Data Analyst </a>
+        sur la plateforme OpenClassrooms et en effectuant un stage au <a href="https://lia.univ-avignon.fr/">
+          Laboratoire Informatique d'Avignon. </a>
+        Davantage d'informations concernant mon parcours sont disponibles sur mon <a href="https://www.linkedin.com/in/charlie-brugvin/">
+          profil LinkedIn</a>.
+        <br> <br>
+        Désormais, je cherche à mettre en pratique mon savoir-faire au sein d'une entreprise.
+      </p>
+
+      <h2> COMPÉTENCES </h2>
+
+      <p>
+        Je sais programmer dans différents langages de programmation telle que le Python, le R et le Java.
+        J'ai de l'expérience avec les librairies Python pour la Data Science (numpy, pandas, scikit learn, Keras),
+        ainsi qu'avec les technologies web Angular, HTML, CSS, TypeScript et Javascript.
+      </p>
+
+      <h2> LOISIRS </h2>
+
+      <p>
+        J'adore le cinéma et j'apprécie la littérature. J'ai de l'intérêt pour l'astronomie, la psychologie et la
+        sociologie.
+        J'aime courir et faire de l'escalade en pleine nature. J'ai découvert récemment les longues randonnées
+        lorsque j'ai décidé de marcher sur le chemin de Saint-Jacques-de-Compostelle au cours de l'automne 2019.
+      </p>
+
+    </div>
+
+  </div>
+
+  <div class="footer">
+
+    <div class="social-list">
+      <a href="https://www.linkedin.com/in/charlie-brugvin/"><i class="fab fa-linkedin"></i></a>
+      <a href="https://github.com/Charliebrugvin"><i class="fab fa-github"></i></a>
+    </div>
+
+    <a href="mailto: charlie.brugvin@gmail.com" class="mail">
+      <i class="far fa-envelope"></i>
+      charlie.brugvin@gmail.com
+    </a>
+
+  </div>
+
+</body>
 </html>

@@ -80,22 +80,26 @@ h2 {
 }
 
 .presentation .mail {
+    color: #dcae1d;
+    margin: 30px 0 0 0;
+    font-size: 1.1em;
+    
+}
+
+.presentation .mail:hover {
     color: #00303F;
-    margin: 15px;
+    
 }
 
 .presentation .social-list i {
-    color: #dcae1d;
+    color: #00303F;
     font-size: 1.8em;
     margin: 25px 20px;
 }
 
-.presentation a:hover {
-    color:  #00303F !important;
-}
 
-.presentation a i:hover {
-    color:  #00303F !important;
+.presentation .social-list a i:hover {
+    color:  #dcae1d !important;
 }
 
 /* projets */
@@ -188,6 +192,7 @@ h2 {
 
 .projet .card-footer a {
     margin: 5px;
+    width: 210px;
 }
 
 /* a propos */
@@ -205,7 +210,7 @@ h2 {
     border: 1px solid black;
     color: white;
     margin-top: 100px;
-    padding: 40px;
+    padding: 30px;
 
     display: flex;
     flex-direction: column;
@@ -214,13 +219,14 @@ h2 {
 
 .footer .mail {
     color: white;
+    font-size: 1.1em;
 }
 
 
 .footer .social-list i {
     color: white;
     font-size: 1.7em;
-    margin: 25px;
+    margin: 0px 25px 25px 25px;
 }
 
 .footer a:hover {
