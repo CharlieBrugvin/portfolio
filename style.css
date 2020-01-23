@@ -212,6 +212,8 @@ h2 {
     color: #00303F !important;
     font-size: 1.5em;
     letter-spacing: 2px;
+
+    text-align: center;
 }
 
 .plus-de-projets .github-btn:hover {
