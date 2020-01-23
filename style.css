@@ -13,7 +13,7 @@ ul {
     padding-left: 20px;
 }
 
-h1, h2, h3, h4 h5 {
+h1, h2, h3, h4 h5, h6 {
     color: #00303F;
 }
 
@@ -168,6 +168,16 @@ h2 {
     text-align: justify;
 }
 
+.projet .card-body .card-text h6 {
+    color: rgb(70, 70, 70);
+    margin-bottom: 16px;
+    margin-left: 7px;
+}
+
+.projet .card-body .card-text hr {
+    margin: 25px 0;
+}
+
 /* projet body : techno list */
 
 .projet .card-body .techno-list {
@@ -193,6 +203,11 @@ h2 {
 .projet .card-footer a {
     margin: 5px;
     width: 210px;
+}
+
+.projet .card-footer .btn-group a {
+    margin: 5px 0px;
+    width: 130px
 }
 
 /* plus de projets */
