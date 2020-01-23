@@ -195,6 +195,30 @@ h2 {
     width: 210px;
 }
 
+/* plus de projets */
+
+.plus-de-projets {
+    display: flex;
+    align-content: center;
+    
+    justify-content: center;
+    margin-top: 60px;
+    margin-bottom: 20px;
+
+}
+
+.plus-de-projets .github-btn {
+    font-family: 'Saira Semi Condensed', sans-serif;
+    color: #00303F !important;
+    font-size: 1.5em;
+    letter-spacing: 2px;
+}
+
+.plus-de-projets .github-btn:hover {
+    color: #dcae1d  !important;
+    text-decoration: none;
+}
+
 /* a propos */
 
 .a-propos {
