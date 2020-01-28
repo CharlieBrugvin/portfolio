@@ -40,13 +40,34 @@ h2 {
     margin-bottom: 20px;
 }
 
+/* navbar */
+
+.navbar {
+    background-color: #F7F7F7;
+    border-bottom: 1px solid #dcae1d;
+    font-family: 'Saira Semi Condensed';
+}
+
+.navbar .navbar-brand img {
+    height: 25px;
+}
+
+a.anchor {
+    display: block;
+    position: relative;
+    top: -60px;
+    visibility: hidden;
+}
+
+
 /* presentation */
 
 .presentation {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 100px;
+    margin-top: 60px;
+    padding-top: 100px;
     margin-bottom: 60px;
 }
 
