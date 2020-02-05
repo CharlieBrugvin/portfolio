@@ -40,6 +40,10 @@ h2 {
     margin-bottom: 20px;
 }
 
+hr.part-delimiter {
+    border-top: 1px solid rgb(153, 153, 153);
+}
+
 /* navbar */
 
 .navbar {
@@ -66,17 +70,25 @@ a.anchor {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 60px;
-    padding-top: 100px;
+    margin-top: 100px;
+    padding-top: 60px;
     margin-bottom: 60px;
 }
 
+@media (max-width: 768px) {
+.presentation {
+    margin-top: 30px;
+}
+}
+
+
 .nom{
     font-family: 'Saira Semi Condensed', sans-serif;
-    font-size: 3em;
+    font-size: 3.2em;
     text-transform: uppercase;
     font-weight: bold;
     text-align: center;
+    margin: 10px;
   }
 
 .last-name {
@@ -87,40 +99,29 @@ a.anchor {
     color: #00303F;
 }
 
-.profile-pic {
-    width: 150px;
-    border-radius: 15px;
-    margin: 30px;
-    box-shadow: 0 0 5px silver;
+
+.presentation .social-list i {
+    color: #ddbf5c;
+    font-size: 1.8em;
+    margin: 0 15px;
 }
+
+.presentation .social-list a i:hover {
+    color:  #00303F !important;
+}
+
+.profile-pic {
+    width: 200px;
+    border-radius: 15px;
+    margin: 60px;
+    box-shadow: 0 0 3px silver;
+}
+
 
 .presentation-texte {
     margin: 10px;
     max-width: 500px;
-    text-align: justify;
-}
-
-.presentation .mail {
-    color: #dcae1d;
-    margin: 30px 0 0 0;
-    font-size: 1.1em;
-    
-}
-
-.presentation .mail:hover {
-    color: #00303F;
-    
-}
-
-.presentation .social-list i {
-    color: #00303F;
-    font-size: 1.8em;
-    margin: 25px 20px;
-}
-
-
-.presentation .social-list a i:hover {
-    color:  #dcae1d !important;
+    text-align: center;
 }
 
 /* projets */
@@ -260,37 +261,37 @@ a.anchor {
     text-align: justify;
 }
 
+/* contact*/
+
+.contact {
+    text-align: center;
+}
+
+.contact .contact-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 25px;
+
+}
+
+.contact .contact-list .contact-item {
+    margin: 5px 20px;
+    width: 300px;
+}
+
+.contact .contact-list .contact-item i {
+    font-size: 2.1em;
+    margin: 15px;
+    color: #dcae1d;
+}
+
+.contact .contact-list .contact-item i:hover {
+    color: #00303F;
+}
 
 /* footer */
 
 .footer {
-    background-color: #00303F;
-    border: 1px solid black;
-    color: white;
     margin-top: 100px;
-    padding: 30px;
-
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.footer .mail {
-    color: white;
-    font-size: 1.1em;
-}
-
-
-.footer .social-list i {
-    color: white;
-    font-size: 1.7em;
-    margin: 0px 25px 25px 25px;
-}
-
-.footer a:hover {
-    color:  #dcae1d !important;
-}
-
-.footer a i:hover {
-    color:  #dcae1d !important;
 }
