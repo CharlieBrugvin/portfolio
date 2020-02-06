@@ -3,6 +3,9 @@
 
 body {
     background-color: #F7F7F7;
+    background-image: url("res/background.png");
+    background-size: auto 1000px;
+    background-repeat: no-repeat;
 }
 
 p, ul {
@@ -73,52 +76,63 @@ a.anchor {
     margin-top: 100px;
     padding-top: 60px;
     margin-bottom: 60px;
+    
 }
-
 @media (max-width: 768px) {
-.presentation {
-    margin-top: 30px;
-}
+    .presentation {
+        margin-top: 30px;
+    }
 }
 
 
-.nom{
+.nom-container .nom {
+    display: flex;
     font-family: 'Saira Semi Condensed', sans-serif;
     font-size: 3.2em;
     text-transform: uppercase;
     font-weight: bold;
-    text-align: center;
-    margin: 10px;
-  }
-
-.last-name {
-    color: #dcae1d;
+}
+@media (max-width: 576px) {
+    .nom-container .nom  {
+        font-size: 2.2em;
+    }
 }
 
-.first-name{
+.nom-container .last-name {
+    color: #dcae1d;
+    margin-left: 10px;
+}
+
+.nom-container .first-name{
     color: #00303F;
 }
 
-
-.presentation .social-list i {
-    color: #ddbf5c;
-    font-size: 1.8em;
-    margin: 0 15px;
+.nom-container .social-list {
+    padding: 0 4px;
+    text-align: left;
 }
 
-.presentation .social-list a i:hover {
+.nom-container .social-list i {
+    color: #dcae1d;
+    font-size: 1.5em;
+    margin-right: 15px;
+}
+
+.nom-container .social-list a i:hover {
     color:  #00303F !important;
 }
 
 .profile-pic {
-    width: 200px;
+    width: 220px;
     border-radius: 15px;
-    margin: 60px;
+    margin-top: 60px;
+    margin-bottom: 20px;
     box-shadow: 0 0 3px silver;
 }
 
 
 .presentation-texte {
+    color: rgb(131, 131, 131);
     margin: 10px;
     max-width: 500px;
     text-align: center;
